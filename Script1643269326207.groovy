@@ -25,11 +25,9 @@ WebUI.setText(findTestObject('Object Repository/Sevima/input_Kalkulator Faktoria
 
 WebUI.click(findTestObject('Object Repository/Sevima/button_Hitung                              _be4487'))
 
-WebUI.click(findTestObject('Object Repository/Sevima/a_Terms Of Service'))
+WebUI.delay(3)
 
-WebUI.click(findTestObject('Object Repository/Sevima/a_Privacy Policy'))
-
-WebUI.doubleClick(findTestObject('Object Repository/Sevima/input_Kalkulator Faktorial_input'))
+WebUI.click(findTestObject('Object Repository/Sevima/input_Kalkulator Faktorial_input'))
 
 WebUI.setText(findTestObject('Object Repository/Sevima/input_Kalkulator Faktorial_input'), '6')
 
